@@ -5,7 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    name: spring-application
+    app: spring-application
   ports:
     - port: 8080
       targetPort: 8080
